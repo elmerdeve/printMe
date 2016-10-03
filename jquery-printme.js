@@ -33,9 +33,9 @@ jQuery.fn.printMe = function(options){
 		w.document.write( "<meta charset='utf-8'>" );
 
 		// Add the style sheets
-		for(i in settings.path){
+		//for(i in settings.path){
 			w.document.write('<link rel="stylesheet" href="'+settings.path[i]+'">');
-		}
+		//}
 
 		// Close the head
 		w.document.write('</head><body>');
